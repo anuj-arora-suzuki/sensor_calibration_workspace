@@ -1,0 +1,11 @@
+3 Hesai LiDARs bag file (Our bag file)
+frame_id: pandar_xt32_front_center       topic: /sensing/lidar/front_center/pointcloud
+frame_id: pandar_xt32_back_center        topic: /sensing/lidar/back_center/pointcloud
+frame_id: pandar_xt32_top                topic: /sensing/lidar/top/pointcloud
+
+
+Sample bag file for calibration
+frame_id: pandar_top		topic: /sensing/lidar/top/pointcloud_raw
+frame_id: pandar_front		topic: /sensing/lidar/front/pointcloud_raw
+frame_id: pandar_left		topic: /sensing/lidar/left/pointcloud_raw
+frame_id: pandar_right		topic: /sensing/lidar/right/pointcloud_raw		
